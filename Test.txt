@@ -1,3 +1,5 @@
 I am going to add in some Text
 
 Here is another Edit (Brooks)
+
+As a third test I am inputting a new line (9:08 PM)
