@@ -10,7 +10,6 @@ import edu.wpi.first.wpilibj.Preferences;
 import edu.wpi.first.wpilibj.RobotDrive;
 import edu.wpi.first.wpilibj.Victor;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import edu.wpi.first.wpilibj.Timer;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -31,6 +30,7 @@ public class RobotTemplate extends IterativeRobot {
     DoubleSolenoid armPistonLeft = new DoubleSolenoid(3,4);
     DoubleSolenoid launchPiston = new DoubleSolenoid(5,6);
     double sensitivity = 0.75;
+    
     
     /**
      * This function is called once each time the robot enters autonomous mode.
