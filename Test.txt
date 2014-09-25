@@ -4,4 +4,9 @@ Hello, this is a test of editing code
 I am going to add in some Text
 
 Here is another Edit (Brooks)
+<<<<<<< HEAD
 >>>>>>> Brooks
+=======
+
+As a third test I am inputting a new line (9:08 PM)
+>>>>>>> FETCH_HEAD
