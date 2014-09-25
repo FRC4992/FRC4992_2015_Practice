@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 Hello, this is a test of editing code
+=======
+I am going to add in some Text
+
+Here is another Edit (Brooks)
+>>>>>>> Brooks
