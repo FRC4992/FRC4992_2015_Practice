@@ -144,7 +144,7 @@ public class RobotTemplate extends IterativeRobot {
         previousAButton = Driver.ButtonA();
         previousYButton = Driver.ButtonY();
         previousBButton = Driver.ButtonB();
-        dsl.updateLCD();
+        dsl.updateLCD(); //
     }
     
     /**
