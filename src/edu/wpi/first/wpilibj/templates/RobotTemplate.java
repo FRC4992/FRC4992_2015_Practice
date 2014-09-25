@@ -1,3 +1,5 @@
+//Adam Kaminski, the programmer, made a change to this .java file.
+
 package edu.wpi.first.wpilibj.templates;
 
 import edu.wpi.first.wpilibj.Compressor;
@@ -8,7 +10,6 @@ import edu.wpi.first.wpilibj.Preferences;
 import edu.wpi.first.wpilibj.RobotDrive;
 import edu.wpi.first.wpilibj.Victor;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import edu.wpi.first.wpilibj.Timer;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -29,16 +30,7 @@ public class RobotTemplate extends IterativeRobot {
     DoubleSolenoid armPistonLeft = new DoubleSolenoid(3,4);
     DoubleSolenoid launchPiston = new DoubleSolenoid(5,6);
     double sensitivity = 0.75;
-    boolean previousLeftButton = false;
-    boolean previousRightButton = false;
-    boolean previousAButton = false;
-    boolean previousYButton = false;
-    boolean previousBButton = false;
-    boolean checkArmMotor = false;
-    boolean flipDrive = false;
-    boolean armPosition = false;
-    boolean launchPosition = false;
-    boolean shooter = false;
+    
     
     /**
      * This function is called once each time the robot enters autonomous mode.
