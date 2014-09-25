@@ -31,16 +31,6 @@ public class RobotTemplate extends IterativeRobot {
     DoubleSolenoid armPistonLeft = new DoubleSolenoid(3,4);
     DoubleSolenoid launchPiston = new DoubleSolenoid(5,6);
     double sensitivity = 0.75;
-    boolean previousLeftButton = false;
-    boolean previousRightButton = false;
-    boolean previousAButton = false;
-    boolean previousYButton = false;
-    boolean previousBButton = false;
-    boolean checkArmMotor = false;
-    boolean flipDrive = false;
-    boolean armPosition = false;
-    boolean launchPosition = false;
-    boolean shooter = false;
     
     /**
      * This function is called once each time the robot enters autonomous mode.
